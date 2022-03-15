@@ -26,8 +26,7 @@ public class Teste {
 
         Conta cc2 = new Conta();
         System.out.println("Agencia: ");
-        cc2.agencia = leitor.nextInt()
-        ;
+        cc2.agencia = leitor.nextInt();
         System.out.println("Numero: ");
         cc2.numero = leitor.nextInt();
 
