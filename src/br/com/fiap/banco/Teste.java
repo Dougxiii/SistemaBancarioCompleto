@@ -24,6 +24,8 @@ public class Teste {
         contaPoupanca.retirar(50.99);
         System.out.println(contaPoupanca.verificarSaldo());
 
+        //TESTANDO ENTRADA DE DADOS
+
         Conta cc2 = new Conta();
         System.out.println("Agencia: ");
         cc2.agencia = leitor.nextInt();
